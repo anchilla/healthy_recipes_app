@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".WriteYourRecipeActivity"  >
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/empty_plate"
+        android:contentDescription="@string/image"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:src="@drawable/empty_plate"
+        />
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="1"
+        android:padding="2dp"
+        android:hint="@string/tittle"
+        android:layout_below="@+id/empty_plate"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_text"
+        android:autofillHints="@string/tittle"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="1"
+        android:padding="2dp"
+        android:hint="@string/ingredients"
+        android:minHeight="120dp"
+        android:layout_below="@+id/first"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_text"
+        android:autofillHints="@string/ingredients"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="120dp"
+        android:minLines="1"
+        android:padding="2dp"
+        android:hint="@string/instructions"
+        android:layout_below="@+id/second"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_text"
+        android:autofillHints="@string/instructions"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/third"
+        android:layout_marginTop="15dp"
+        android:text="@string/save"
+        android:onClick="onClick"
+        android:layout_centerInParent="true"
+        android:background="@color/plava"
+        />
+
+
+
+</RelativeLayout>
+</ScrollView>

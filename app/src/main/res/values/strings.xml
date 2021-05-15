@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Healthy Food App</string>
+
+    <string name="name">Healthy Food Recipes</string>
+    <string name="example">This is a toobar example</string>
+    <string name="picture">ovo je slika</string>
+
+    <string name="tittle">Tittle</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="save">Save</string>
+
+    <string name="favorite">Favorite</string>
+    <string name="favorites">Your favorite recipes:</string>
+
+    <string-array name="options">
+        <item>"Healthy Food Recipes"</item>
+        <item>"Favourites"</item>
+        <item>"Add your recipe"</item>
+    </string-array>
+
+
+    <string-array name="category_food_list">
+        <item>"Main course/Side dishes"</item>
+        <item>"Deserts/Sweets"</item>
+        <item>"My recipes"</item>
+    </string-array>
+
+    <string name="title_activity_favorites">Favorites</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_create_order">Create Order</string>
+    <string name="action_share">Share</string>
+
+    <string-array name="titles">
+        <item>Food Recipes</item>
+        <item>Your activity</item>
+
+
+    </string-array>
+
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <string name="text_main">Click to\n see recipes</string>
+
+    <string name="all_recipes">All recipes</string>
+    <string name="favs">Your favorites</string>
+    <string name="my_rec">Your recipes</string>
+    <string name="home">Home</string>
+
+    <string name="healthy_recipes">List of recipes</string>
+
+    <string name="image">Image</string>
+
+
+</resources>

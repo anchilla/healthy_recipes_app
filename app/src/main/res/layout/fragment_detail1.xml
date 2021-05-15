@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".DetailRecipeActivity">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/food_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:layout_below="@+id/food_title"
+            android:layout_marginTop="5dp"
+            android:id="@+id/food_image"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/image"/>
+
+
+        <TextView
+            android:layout_below="@+id/food_image"
+            android:layout_marginTop="5dp"
+            android:id="@+id/ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_below="@+id/ingredients"
+            android:layout_marginTop="5dp"
+            android:id="@+id/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:layout_below="@+id/instructions"
+            android:layout_marginTop="5dp"
+            android:id="@+id/favorite"
+            android:text="@string/favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
